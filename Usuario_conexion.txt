@@ -1,0 +1,30 @@
+mysql -u root
+
+CREATE USER 'usuarioseasmart'@'localhost' IDENTIFIED BY 'SeaSmart123';
+Flush privileges;
+
+GRANT SELECT ON dbseasmart.* TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT INSERT ON dbseasmart.* TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT UPDATE ON dbseasmart.* TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT DELETE ON dbseasmart.* TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT CREATE ROUTINE ON dbseasmart.* TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT EXECUTE ON PROCEDURE dbseasmart.agregarDetalle TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT EXECUTE ON PROCEDURE dbseasmart.actualizarDetalle TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+GRANT EXECUTE ON PROCEDURE dbseasmart.removerDetalle TO 'usuarioseasmart'@'localhost';
+Flush privileges;
+
+SHOW GRANTS FOR 'usuarioseasmart'@'localhost';

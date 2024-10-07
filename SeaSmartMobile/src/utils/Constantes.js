@@ -1,0 +1,1 @@
+export const IP = 'https://www.promo2024ds.site';
