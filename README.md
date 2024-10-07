@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SeaSmartMobile
 -- Aplicación móvil del proyecto SeaSmart --
 
@@ -36,3 +37,6 @@ Dependencias instaladas:
 * npm i react-native-element-dropdown;
 
 LINK DE DESCARGA DE LA APK: https://expo.dev/accounts/pagetablek/projects/SeaSmartMobile/builds/60737977-0026-4bf1-94d6-4577fb77beb0
+=======
+# SeaSmartMovil
+>>>>>>> 74dee3ddd99bfb5c5010a685a906c7b4e9505f83
